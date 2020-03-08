@@ -16,7 +16,7 @@ from .forms import PostForm
 from datetime import datetime
 from django.http import JsonResponse
 
-from geoip import geolite2
+#from geoip import geolite2
 import requests
 from django.contrib.gis.geoip2 import GeoIP2
 import geoip2.database
